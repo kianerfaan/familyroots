@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>FamilyTree - Privacy-Focused Genealogy</title>
+    <meta name="description" content="A privacy-focused family tree application that works locally">
+    <style>
+      .tree-connector {
+        position: absolute;
+        background-color: #718096;
+        z-index: 0;
+      }
+      .person-card {
+        z-index: 1;
+        position: relative;
+      }
+      .vertical-connector {
+        width: 2px;
+      }
+      .horizontal-connector {
+        height: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
+    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
+  </body>
+</html>
